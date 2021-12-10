@@ -62,3 +62,10 @@ padding: 20px;
 color: white;
 font-weight: bolder;
 }
+.name{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: yellow;
+    j
+}
