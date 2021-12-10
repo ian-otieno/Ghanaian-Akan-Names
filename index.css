@@ -89,3 +89,8 @@ font-weight: bolder;
     text-align: center;
     font-weight: bolder;
 }
+#date{
+    padding: 20px;
+    width: 40%;
+    font-weight: bolder;
+}
