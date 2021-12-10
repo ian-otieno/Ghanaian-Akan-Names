@@ -90,7 +90,22 @@ font-weight: bolder;
     font-weight: bolder;
 }
 #date{
+    margin-top: 50px;
     padding: 20px;
     width: 40%;
     font-weight: bolder;
+}
+.container{
+ background-image: url(images/Akan-Child-1.jpg);
+ text-align: center; 
+ height: 400px;
+
+}
+.jumbotron2{
+height: 40px;
+background-color: red;
+color: white;
+font-weight: bolder;
+margin-top: 5px;
+
 }
