@@ -114,3 +114,16 @@ margin-top: 5px;
     color: blue;
     font-weight: bolder;
 }
+.footer{
+ display: flex; 
+ width: 100%;  
+ background-color: red;
+ height: 180px;
+ justify-content: space-evenly;
+}
+.foot{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 80px;
+    color: white;
+}
