@@ -33,10 +33,10 @@
             <p>The Akan is a unique group of people found in Ghana and Ivory Coast.<br>
                 Historically, the Ghanaian population migrated to the Ivory Coast <br>
                 and became the most populous group of people in the country. <br>
-                The Akan language is known as Fante or Twi; it is a group of<br>
+                The Akan language is known as <strong>Fante or Twi</strong> ; it is a group of<br>
                 dialects within the Niger-Congo family of languages. The dialects<br>
-                of the Akan language include the Akuapem, Akwamu, Akyem, Bono, <br>
-                Agona, Wassa, Fante, Kwahu, and Asante.Some prominent people from <br>
+                of the Akan language include the <strong> Akuapem, Akwamu, Akyem, Bono,</strong> <br>
+                <strong> Wassa, Fante, Kwahu, and Asante. </strong>,Some prominent people from <br>
                 the Akan community include <strong> Kofi Annan, John Atta Mills, and Kwame Nkrumah</strong> .
             </p>
         </div>
@@ -54,7 +54,9 @@
                 as it is believed that the name given to a child can affect his <br>
                 behaviour and destiny. Besides, the family name that is given the <br>
                 child the day the child is born is very significant as it actually <br>
-                becomes the first name of the person.</p>
+                becomes the first name of the person.<a
+                    href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fyen.com.gh%2F115080-akan-names-meanings.html&psig=AOvVaw1GdVJyFhF8-n2nUTaagzHu&ust=1639384013544000&source=images&cd=vfe&ved=0CA4QtaYDahcKEwjI1IXM6930AhUAAAAAHQAAAAAQMw">
+                     view Akan names and their meaning</a></p>
         </div>
         <div class="cult">
             <img class="nam"
@@ -63,43 +65,49 @@
             <p>Akan women the source of generation and pride </p>
         </div>
         <div class="cult">
-            <img class="nam" src="images/Naming Ceremony 1.jpg" alt="">
+            <img class="nam" src="images/images (1).jpeg" alt="">
             <h2>Child Naming Ceremony</h2>
             <p>A Ghanaian ceremony to welcome new borne</p>
         </div>
     </div>
     <div class="form" id="naming">
         <h2 class="jumbotron1">Name Spawn</h2>
-        <h3>To see your AKan Name click on the form below</h3>
-        <p>Enter your Birthdate, Choose your Gender <br>
-            and click submit button to see your Akan Name</p>
+        <h3>To see your AKan Name fill the form below</h3>
+        <p>Enter your BirthYear, BirthMonth, BirthDate, Choose your Gender <br>
+            and click on Display Name button to view your Akan Name</p>
 
     </div>
     <div class="container" id="naming">
-        <form action="result.html" method="get">
+        <form name="nameForm" onsubmit="validate();">
             <div>
-                <label for="date">Birthdate</label>
-                <input type="date" name="date" id="date" min="2020/06/10">
+                <label for="number">Year of Birth:</label>
+                <input type="number" id="year" placeholder="Year of Birth eg: 2018" name="year">
             </div>
             <div>
-                <h2 class="jumbotron2">Gender</h2>
+                <label for="month">Month of Birth:</label>
+                <input type="number" id="month" placeholder="Month of Birth e.g 05" name="month">
+            </div>
+            <div>
+                <label for="date">Date of Birth:</label>
+                <input type="number" id="date" placeholder="Date of Birth e.g 08" name="date">
+            </div>
+            <div>
+                <label class="jumbotron" for="gender">Gender</label><br>
                 <div>
-                    <label for="male"
-                        style="color: white;font-size: 25px; font-weight: bolder; margin-top: 20px;">Male</label>
-                    <input type="radio" name="gender" id="male">
+                    <label>
+                        <input type="radio" name="gender" id="male"> Male
+                    </label>
                 </div>
                 <div>
-                    <label for="female"
-                        style="color: white;font-size: 25px; font-weight: bolder; margin-top: 20px;">Female</label>
-                    <input type="radio" name="gender" id="female">
+                    <label>
+                        <input type="radio" name="gender" id="female"> Female
+                    </label>
                 </div>
             </div>
             <button
-                style="margin-top: 20px;  background-color: yellow; padding: 10px; width: 20%;border-radius: 25px;font-weight: bolder;font-size: 25px;"
-                type="reset">Reset</button>
-            <button
-                style="background-color: yellow; padding: 10px; width: 20%;border-radius: 25px;font-weight: bolder;font-size: 25px;"
-                type="submit">Submit</button>
+                style="padding: 15px; width: 300px; border-radius: 10px; background-color: yellow;font-weight: bolder;"
+                type="submit" onclick="obtainName();">Display Name</button>
+            <br>
         </form>
     </div>
     </div>
@@ -115,7 +123,7 @@
             <p>Designed by Ian Otieno</p>
         </div>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
