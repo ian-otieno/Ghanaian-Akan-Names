@@ -90,3 +90,7 @@ function findGender() {
 
 }
 
+function obtainName() {
+  dayValue = calculateDayValue();
+  findGender();
+} 
