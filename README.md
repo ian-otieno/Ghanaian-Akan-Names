@@ -3,10 +3,10 @@ This is Ghanain Akan names websites that describes Akan people of Ghana, their c
 By Ian Otieno
 
 ## Description
-This is Ghanain Akan names website that describes Akan people, their culture and naming, it also generates the the date of birth and the name based on gender basis.
+This is Ghanain Akan names website that describes the Akan people of Ghana, their culture and naming, it generates the day of birth and  displays name based on gender basis.
 
 ## live demo 
-Click on the link  bellow to view the site;https:
+Click on the link  bellow to view the site;https:https://ian-otieno.github.io/Ghanaian-Akan-Names/
 
 ## Set up and Installation
 1)Install the Visual studio code<br>
